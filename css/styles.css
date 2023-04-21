@@ -492,7 +492,7 @@ body {
     display: flex;
     align-items: baseline;
     /* gap: 120px;  */
-    margin-right: 80px;
+    
     
 } 
 .social-text{
@@ -504,6 +504,7 @@ body {
 .footer-social-links{
     display: flex;
     gap: 16px;  
+    margin-right: 80px;
 }
 .social-link-hf{
     transition: background-color var(--transition);
