@@ -570,6 +570,17 @@
             </li>
           </ul>
         </div>
+        <span class="form-wrapper">
+          <label class="footer-form">
+            <span class="footer-form-text">Email</span>
+              <input class="footer-form-email" type="mail" name="email" >
+              <button class="footer-btn" button="">Subscribe</button>
+            <svg>
+              <use></use>
+            </svg>
+            </input>          
+        </label>
+      </span>
       </div>
     </footer>
     <!-- Modal "Order service" -->
@@ -610,15 +621,11 @@
           <span class="form-text">Comment</span>
           <textarea class="form-massage" name="comment" placeholder="Text input"></textarea>
         </label>  
-        <span class="form-wrapper">      
-        <input class="form-checkbox" type="checkbox" />
-        <svg class="icon-checkbox" width="10" height="8">
-            <use href="./images/icons.svg#vector">
-            </use>
-          </svg>
-        <span class="form-agreement">I accept the terms and conditions of the <span> <a href="Privacy Policy"></a></span></span>
-        </span>
-        <button type="submit">send</button>
+        <label class="form-check-wrapper">
+        <input class="form-checkbox" type="checkbox" name="user-agreement"/>
+                <span class="form-agreement">I accept the terms and conditions of the <a class="pp-text"href="">Privacy Policy</a></span>        
+        </label>
+        <button class="form-btn" type="submit">Send</button>
         </form>
       </div>
     </div>
