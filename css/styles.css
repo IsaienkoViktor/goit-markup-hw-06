@@ -795,7 +795,10 @@ body {
 .form-input:hover + .form-icon{
     fill: #4D5AE5;
 }
-.form-check-wrapper{}
+.form-check-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;}
 
 .form-checkbox{
     appearance: none;
@@ -817,8 +820,8 @@ body {
     border: transparent;
 
 }
-
 .form-agreement{
+    padding-top: 3px;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
@@ -863,16 +866,7 @@ body {
     gap:24px;
  
 }
-.form-subscribe-text{
-    font-weight: 500;
-    font-size: 16px;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-}
 .footer-form-text {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1,5;
@@ -911,5 +905,11 @@ body {
     background: #4D5AE5;
     border-radius: 4px;
     border: transparent;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+
 }
 
