@@ -463,11 +463,11 @@ body {
     background-color: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
-
 }
 .footer-logo-text{
-    gap: 120px;
+    margin-right: 120px;
 }
+/* .footer-social-wrapper{}  */
 .footer-text{
     max-width: 264px;
     font-weight: 400;
@@ -491,7 +491,9 @@ body {
 .footer-social{
     display: flex;
     align-items: baseline;
-    gap: 120px; 
+    /* gap: 120px;  */
+    margin-right: 80px;
+    
 } 
 .social-text{
     font-weight: 500;
@@ -863,16 +865,14 @@ body {
 }
 .footer-form{
     display: flex;
-    gap:24px;
- 
+    gap: 24px;
 }
 .footer-form-text {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-bottom: 16px;
+    margin-bottom: 27px;
 }
 
 .footer-form-input {
